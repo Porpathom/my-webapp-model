@@ -24,7 +24,8 @@ urlpatterns = [
 ```
 
 ### 4. การสร้าง folder templates และ statics
-เพื่อที่จะสร้าง page home,about,contect   
+#### เพื่อที่จะสร้าง page home,about,contect   
+![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/page.png)
 ![image]()
 
 ### 5. การใช้ prefix choices และ django model 
