@@ -20,15 +20,15 @@ pythom manage.py createsuperuser
 ```python
 pythom manage.py runserver
 ```
-### 4. การสร้างไฟล์ requirements.txt 
+### 5. การสร้างไฟล์ requirements.txt 
 #### >> เพื่อติดตั้งโปรแกรมต่างๆ ที่จะใช้
 
 ```python
 pip install -r requirements.txt
 ```
-![image]()
+![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/re.png)
 
-### 4. การตั้งค่า urls
+### 6. การตั้งค่า urls
 ```python
 from django.urls import path
 from . import views
@@ -41,12 +41,12 @@ urlpatterns = [
 ]
 ```
 
-### 5. การสร้าง folder templates และ statics
-#### >> เพื่อที่จะสร้าง page home,about,contect   
+### 7. การสร้าง folder templates และ statics
+#### >> เพื่อที่จะสร้างหน้า page home/about/contect   
 ![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/page.png)
 ![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/tem.png)
 
-### 6. การใช้ prefix choices และ django model 
+### 8. การใช้ prefix choices และ django model 
 ```python
 from django.db import models
 
@@ -76,5 +76,5 @@ class Student(models.Model):
         return reversed("Student_detail", kwargs={"pk": self.pk})
 
 ```
-### 7. Screen Capture 
+### 9. Screen Capture 
 ![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/admin.png)
