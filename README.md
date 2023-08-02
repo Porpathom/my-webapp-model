@@ -26,7 +26,7 @@ pythom manage.py runserver
 ```python
 pip install -r requirements.txt
 ```
-
+![image]()
 
 ### 4. การตั้งค่า urls
 ```python
