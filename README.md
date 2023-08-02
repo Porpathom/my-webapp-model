@@ -59,4 +59,4 @@ class Student(models.Model):
 
 ```
 ### 6. Screen Capture 
-![image]()
+![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/admin.png)
