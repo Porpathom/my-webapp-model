@@ -20,6 +20,13 @@ pythom manage.py createsuperuser
 ```python
 pythom manage.py runserver
 ```
+### 4. การสร้างไฟล์ requirements.txt 
+#### >> เพื่อติดตั้งโปรแกรมต่างๆ ที่จะใช้
+
+```python
+pip install -r requirements.txt
+```
+
 
 ### 4. การตั้งค่า urls
 ```python
