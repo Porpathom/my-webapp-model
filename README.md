@@ -4,13 +4,31 @@
 ```python
 pip install django
 ```
+### 2. เริ่มโปรเจคและแอป
+```python
+pythom manage.py startproject
+```
+```python
+pythom manage.py startapp
+```
 
-### 2. การสร้างบัญชี admin
+### 3. การสร้างบัญชี admin
 ```python
 pythom manage.py createsuperuser
 ```
+### 4. การทดลองรัน server
+```python
+pythom manage.py runserver
+```
+### 4. การสร้างไฟล์ requirements.txt 
+#### >> เพื่อติดตั้งโปรแกรมต่างๆ ที่จะใช้
 
-### 3. การตั้งค่า urls
+```python
+pip install -r requirements.txt
+```
+
+
+### 4. การตั้งค่า urls
 ```python
 from django.urls import path
 from . import views
@@ -23,12 +41,12 @@ urlpatterns = [
 ]
 ```
 
-### 4. การสร้าง folder templates และ statics
+### 5. การสร้าง folder templates และ statics
 #### >> เพื่อที่จะสร้าง page home,about,contect   
 ![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/page.png)
-![image]()
+![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/tem.png)
 
-### 5. การใช้ prefix choices และ django model 
+### 6. การใช้ prefix choices และ django model 
 ```python
 from django.db import models
 
@@ -58,5 +76,5 @@ class Student(models.Model):
         return reversed("Student_detail", kwargs={"pk": self.pk})
 
 ```
-### 6. Screen Capture 
+### 7. Screen Capture 
 ![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/admin.png)
