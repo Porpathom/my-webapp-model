@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    ข้อมูลนักศึกษา
+{% endblock title %}
+
+{% block content %}
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">no</th>
+        <th scope="col">id</th>
+        <th scope="col">prefix</th>
+        <th scope="col">name</th>
+        <th scope="col">lastname</th>
+        <th scope="col">phone</th>
+        <th scope="col">address</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for student in students %}
+          <tr>
+            <th scope="row">1</th>
+            <th> {{ student.std_id }}</th>
+            <th> {{ student.prefix }}</th>
+            <th> {{ student.name }}</th>
+            <th> {{ student.lastname }}</th>
+            <th> {{ student.phone }}</th>
+            <th> {{ student.address }}</th>
+          </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+  
+{% endblock content %}
+<!---->
+<table class="table">
+  <tr>
+    <td>
+      
+    </td>
+  </tr>
+</table>
