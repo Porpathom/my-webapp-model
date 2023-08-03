@@ -15,6 +15,7 @@
         <th scope="col">lastname</th>
         <th scope="col">phone</th>
         <th scope="col">address</th>
+        <th scope="col">major</th>
       </tr>
     </thead>
     <tbody>
@@ -22,11 +23,12 @@
           <tr>
             <th scope="row">1</th>
             <th> <a href="{% url 'detail' student.id %}">{{ student.std_id }}</a></th>
-            <th> {{ student.prefix }}</th>
+            <th> {{ student.prefix_str }}</th>
             <th> {{ student.name }}</th>
             <th> {{ student.lastname }}</th>
             <th> {{ student.phone }}</th>
             <th> {{ student.address }}</th>
+            <th> {{ student.major }}</th>
           </tr>
         {% endfor %}
     </tbody>
