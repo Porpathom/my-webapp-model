@@ -1,0 +1,630 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-08-02T07:25:37.069Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "ปฐม",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-08-02T07:25:42.209Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "ปฐม",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-08-03T04:06:06.890Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "aa",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-08-03T04:07:17.018Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "aa",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-08-03T04:28:53.399Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "ปฐม",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-08-03T04:29:19.526Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "aaa",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-08-03T04:29:38.038Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "bbb",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2023-08-03T04:30:01.488Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "ccc",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2023-08-03T07:31:08.667Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "วิทยาการคอมพิวเตอร์",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2023-08-03T07:32:49.292Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "เทคโนโลยีคอมพิวเตอร์",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2023-08-03T07:35:44.287Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "เทคโนโลยีคอมพิวเตอร์และดิจิตอล",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2023-08-03T07:36:12.372Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "วิศวกรรมคอมพิวเตอร์",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2023-08-03T07:43:47.551Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "bbb",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Major\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2023-08-03T07:43:52.954Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "aaa",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Major\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add Student",
+            "content_type": 7,
+            "codename": "add_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change Student",
+            "content_type": 7,
+            "codename": "change_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete Student",
+            "content_type": 7,
+            "codename": "delete_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view Student",
+            "content_type": 7,
+            "codename": "view_student"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add Major",
+            "content_type": 8,
+            "codename": "add_major"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change Major",
+            "content_type": 8,
+            "codename": "change_major"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete Major",
+            "content_type": 8,
+            "codename": "delete_major"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view Major",
+            "content_type": 8,
+            "codename": "view_major"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$fZ7FbPxrK9qOmiMInD5fD6$aR0Wd35H3T4dpKMu49ho6uZ94lXpwnK7ELsgFP4vneM=",
+            "last_login": "2023-08-02T14:10:44.126Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-07-27T04:48:47.479Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "web",
+            "model": "student"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "web",
+            "model": "major"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "37hkmcd5zr9zjx5hbgyayrqqm6u2inpr",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlne_OylpM8ZrP1BAiiR4qRC3B0ipYD2zcx7uUzbOuSt2JJHdWcH7vS7McnDph3onabb7GWe1mVkvyv-oMX3s9rzcrh_BwOV4VsH6VBNKlaIFqETpZBSELSuaS1hhLriyJTwyrFpGQIEJa4QEKlmdO8P7Ng31g:1qOsvq:85EyHP6fdJqKuroNl0_tFL5hG5vW3B9L42W1t375HoA",
+            "expire_date": "2023-08-10T04:48:58.860Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "xfcoi3h48v30qal4awcdola3siqy1f2l",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlne_OylpM8ZrP1BAiiR4qRC3B0ipYD2zcx7uUzbOuSt2JJHdWcH7vS7McnDph3onabb7GWe1mVkvyv-oMX3s9rzcrh_BwOV4VsH6VBNKlaIFqETpZBSELSuaS1hhLriyJTwyrFpGQIEJa4QEKlmdO8P7Ng31g:1qRCYm:wsuyB-k6YEw0UosU1U6SVbki7CFP6wD5wurEp_l2ZrQ",
+            "expire_date": "2023-08-16T14:10:44.134Z"
+        }
+    },
+    {
+        "model": "web.major",
+        "pk": 1,
+        "fields": {
+            "name": "วิทยาการคอมพิวเตอร์"
+        }
+    },
+    {
+        "model": "web.major",
+        "pk": 2,
+        "fields": {
+            "name": "เทคโนโลยีคอมพิวเตอร์และดิจิตอล"
+        }
+    },
+    {
+        "model": "web.major",
+        "pk": 3,
+        "fields": {
+            "name": "วิศวกรรมคอมพิวเตอร์"
+        }
+    },
+    {
+        "model": "web.student",
+        "pk": 3,
+        "fields": {
+            "std_id": 8888,
+            "prefix": 1,
+            "name": "aaa",
+            "lastname": "aaa",
+            "phone": "1111",
+            "address": "aaaaa",
+            "major": 3
+        }
+    },
+    {
+        "model": "web.student",
+        "pk": 4,
+        "fields": {
+            "std_id": 9999,
+            "prefix": 1,
+            "name": "bbb",
+            "lastname": "bbb",
+            "phone": "2222",
+            "address": "bbbbb",
+            "major": 2
+        }
+    },
+    {
+        "model": "web.student",
+        "pk": 5,
+        "fields": {
+            "std_id": 7777,
+            "prefix": 3,
+            "name": "ccc",
+            "lastname": "ccc",
+            "phone": "3333",
+            "address": "ccccc",
+            "major": 1
+        }
+    }
+]
