@@ -90,7 +90,9 @@ class Student(models.Model):
 
 ![image](https://github.com/Porpathom/my-webapp-model/blob/main/immage/many-to-one-function.png)
 
-# 10. psycopg2
+**____________________________________________________________________________________________________________________**
+
+# 10. psycopg2 และ  Supabase
 #### 10.1  การติดตั้ง psycopg2
 ```py
 pip install psycopg2
@@ -145,3 +147,4 @@ if __name__ == '__main__':
     main()
 
 ```
+**____________________________________________________________________________________________________________________**
